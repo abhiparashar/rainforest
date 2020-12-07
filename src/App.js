@@ -1,23 +1,32 @@
-import logo from './logo.svg';
-import './App.css';
+// import 'bootstrap/dist/css/bootstrap.min.css';
+// import './css/style.min.css';
+// import './style.min.css';
+
+
+// import NewComponent from './components/NewComponent'
+import Login from './components/Login'
+// import CheckoutReview from './components/CheckoutReview'
+// import CheckoutShipping2 from './components/CheckoutShipping2'
+import Footer from './components/Footer'
+import Header from './components/Header'
+// import MyAccount from './components/MyAccount'
+// import ProductSimple from './components/ProductSimple'
+// import Signup from './components/Signup'
+
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      {/* <NewComponent/> */}
+      <Login/>
+      <Header/>
+      {/* <CheckoutReview/> */}
+      {/* <CheckoutShipping2/> */}
+      <Footer/>
+      
+      {/* <MyAccount/> */}
+      {/* <ProductSimple/> */}
+      {/* <Signup/> */}
     </div>
   );
 }
